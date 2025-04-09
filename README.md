@@ -1,23 +1,11 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <title>Vertikale Linie</title>
-  <style>
-    .linie {
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      left: 50%;
-      width: 2px;
-      background-color: black;
-      transform: translateX(-50%);
-    }
-  </style>
-</head>
-<body>
+<div style="display: flex; justify-content: center; align-items: center;">
+  <div>
+    <p>Links</p>
+  </div>
 
-<div class="linie"></div>
+  <div style="width: 2px; height: 200px; background-color: black; margin: 0 20px;"></div>
 
-</body>
-</html>
+  <div>
+    <p>Rechts</p>
+  </div>
+</div>
