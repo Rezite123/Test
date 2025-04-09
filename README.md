@@ -1,13 +1,11 @@
-
-<div class="v-line">
-</div>
-<v-line>
- "border-left: thick solid #000;
- height:100%;
- left: 50%;
- position: absolute;
-"
-</v-line>
+<hr>
+hr{
+ height:100vh;
+ width:.5vw;
+ border-width:0;
+ color:#000;
+ background-color:#000;
+}
 
 
 
