@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.vl {
-  border-left: 6px solid green;
-  height: 500px;
-  position: absolute;
-  left: 50%;
-  margin-left: -3px;
-  top: 0;
-}
-</style>
+  <meta charset="UTF-8">
+  <title>Vertikale Linie</title>
+  <style>
+    .linie {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      width: 2px;
+      background-color: black;
+      transform: translateX(-50%);
+    }
+  </style>
 </head>
 <body>
 
-<h2>Vertical Line</h2>
-
-<div class="vl"></div>
+<div class="linie"></div>
 
 </body>
 </html>
