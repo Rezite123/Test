@@ -24,6 +24,7 @@
         <img src="(https://images.mobi.gg/uploads/2025/03/speedshot-moco-gear.webp)" alt="Beschreibung des Bildes">
         <p>Dein Text unter dem Bild</p>
     </div>
+Border-left    
 </body>
 </html>
 
